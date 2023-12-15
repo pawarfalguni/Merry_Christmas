@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gsap-plugin": "^5.0.8",
+    "gsap-trial": "^3.12.4"
+  }
+}
