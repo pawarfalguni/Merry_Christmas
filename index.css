@@ -1,0 +1,50 @@
+body {
+    background-color:#151522;
+    overflow: hidden;
+      display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  svg{
+    width:90%;
+    height:90%;
+    visibility:hidden;
+   
+  }
+  
+  .sparkle{
+    /* mix-blend-mode:luminosity */
+  }
+  
+  .head, p{
+    margin: 20px;
+    padding-left: 50px;
+    /* background-color: #f3ec78; */
+    /* background-image: linear-gradient(45deg, #f3ec78, #af4261); */
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #8f4c86, #d41249);
+    /* background-size: 100%; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: blinker 10s linear infinite;
+
+  }
+ 
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
